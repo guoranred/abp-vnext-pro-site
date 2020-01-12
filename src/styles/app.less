@@ -1,0 +1,41 @@
+@import "header";
+@import "footer";
+@import "home";
+@import "docs";
+@import "components";
+@import "markdown";
+@import "responsive";
+
+.index-page-wrapper {
+  #header {
+    box-shadow: none;
+  }
+}
+
+#app {
+  min-height: 100%;
+}
+
+html {
+  /*隐藏滚动条，当IE下溢出，仍然可以滚动*/
+  -ms-overflow-style:none;
+}
+/* 滚动条 */
+::-webkit-scrollbar{
+  width: 2px; /*滚动条的宽度*/
+  height: 2px; /*滚动条的高度*/
+}
+::-webkit-scrollbar-track{
+  background: #f6f6f6;
+  border-radius: 0px;
+}
+::-webkit-scrollbar-thumb {
+  background: #cdcdcd;
+  border-radius: 0px;
+  &:hover {
+    background: #747474;
+  }
+}
+::-webkit-scrollbar-corner {
+  background: #f6f6f6;
+}
