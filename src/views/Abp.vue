@@ -42,6 +42,14 @@ const mdImport = (name, lang = 'en-US') => {
 }
 
 const renderer = new marked.Renderer()
+renderer.image = (href, title, text) => {
+  const url = `/${href}`
+  return '<img src="' +
+    url + '"' +
+    ' class="img-fluid" alt="' +
+    text +
+    '">'
+}
 renderer.heading = function (text, level) {
   // text.replace(/[^\w]+/g, '-') +
   // 生产锚点 a 链接
@@ -102,7 +110,6 @@ export default {
       this.selectedKeys = [params.page]
       const md = mdImport(params.page, this.currentLang)
       md.then((...rest) => {
-        console.log(rest)
         this.text = rest[0].default
         this.jumpToMark()
       }).catch(err => {
@@ -114,7 +121,6 @@ export default {
       this.$nextTick(() => {
         setTimeout(() => {
           const el = document.getElementById(`${hash.substring(1, hash.length)}`)
-
           if (el) {
             document.body.scrollTop = parseInt(el.offsetTop)
           }
