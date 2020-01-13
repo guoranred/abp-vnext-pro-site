@@ -7,8 +7,8 @@
 这是本教程所有章节中的第一章,下面是所有的章节:
 
 - **Part I: 创建项目和书籍列表页面(本章)**
-- [Part II: 创建,编辑,删除书籍](Part-II.md)
-- [Part III: 集成测试](Part-III.md)
+- [Part II: 创建,编辑,删除书籍](Tutorials/AspNetCore-Mvc/Part-II.md)
+- [Part III: 集成测试](Tutorials/AspNetCore-Mvc/Part-III.md)
 
 你可以从[GitHub存储库](https://github.com/abpframework/abp/tree/master/samples/BookStore)访问应用程序的**源代码**.
 

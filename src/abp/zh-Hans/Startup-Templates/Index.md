@@ -4,5 +4,5 @@
 
 单击下面列表中的名称以查看相关启动模板的文档：
 
-* [**app**](Application.md): 应用程序模板.
-* [**module**](Module.md): 模块/服务模板.
+* [**app**](Startup-Templates/Application.md): 应用程序模板.
+* [**module**](Startup-Templates/Module.md): 模块/服务模板.

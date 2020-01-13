@@ -13,14 +13,14 @@
 ### 指南
 
 * 总体
-  * [模块架构](Module-Architecture.md)
+  * [模块架构](Best-Practices/Module-Architecture.md)
 * 领域层
-  * [实体](Entities.md)
-  * [仓储](Repositories.md)
-  * [领域服务](Domain-Services.md)
+  * [实体](Best-Practices/Entities.md)
+  * [仓储](Best-Practices/Repositories.md)
+  * [领域服务](Best-Practices/Domain-Services.md)
 * 应用程序层
-  * [应用程序服务](Application-Services.md)
-  * [数据传输对象](Data-Transfer-Objects.md)
+  * [应用程序服务](Best-Practices/Application-Services.md)
+  * [数据传输对象](Best-Practices/Data-Transfer-Objects.md)
 * 数据访问
-  * [Entity Framework Core 集成](Entity-Framework-Core-Integration.md)
-  * [MongoDB 集成](MongoDB-Integration.md)
+  * [Entity Framework Core 集成](Best-Practices/Entity-Framework-Core-Integration.md)
+  * [MongoDB 集成](Best-Practices/MongoDB-Integration.md)

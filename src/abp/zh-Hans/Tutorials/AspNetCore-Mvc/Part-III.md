@@ -4,8 +4,8 @@
 
 这是ASP.NET Core MVC教程系列的第三章. 查看其它章节
 
-- [Part I: 创建项目和书籍列表页面](Part-I.md)
-- [Part II: 创建,编辑,删除书籍](Part-II.md)
+- [Part I: 创建项目和书籍列表页面](Tutorials/AspNetCore-Mvc/Part-I.md)
+- [Part II: 创建,编辑,删除书籍](Tutorials/AspNetCore-Mvc/Part-II.md)
 - **Part III: 集成测试(本章)**
 
 你可以从[GitHub存储库](https://github.com/volosoft/abp/tree/master/samples/BookStore)访问应用程序的**源代码**.

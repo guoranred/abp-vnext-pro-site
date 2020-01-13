@@ -13,13 +13,13 @@ There are some **free and open source** application modules developed and mainta
 
 * **Account**: Used to make user login/register to the application.
 * **Audit Logging**: Used to persist audit logs to a database.
-* **Background Jobs**: Used to persist background jobs when using default background job manager.
+* [**Background Jobs**](Modules/Background-Jobs.md): Used to persist background jobs when using default background job manager.
 * **Blogging**: Used to create fancy blogs. ABP's [own blog](https://abp.io/blog/abp/) already using this module.
-* [**Docs**](Docs.md): Used to create technical documentation pages. ABP's [own documentation](https://docs.abp.io) already using this module.
+* [**Docs**](Modules/Docs.md): Used to create technical documentation pages. ABP's [own documentation](https://docs.abp.io) already using this module.
 * **Identity**: Used to manage roles, users and their permissions.
-* **IdentityServer**: Integrates to IdentityServer4.
-* **Permission Management**: Used to persist permissions.
-* **[Setting Management](Setting-Management.md)**: Used to persist and manage the [settings](../Settings.md).
+* [**Identity Server**](Modules/IdentityServer.md): Integrates to IdentityServer4.
+* [**Permission Management**](Modules/Permission-Management.md): Used to persist permissions.
+* [**Setting Management**](Modules/Setting-Management.md): Used to persist and manage the [settings](../Settings.md).
 * **Tenant Management**: Used to manage tenants for a [multi-tenant](../Multi-Tenancy.md) application.
 * **Users**: Used to abstract users, so other modules can depend on this instead of the Identity module.
 

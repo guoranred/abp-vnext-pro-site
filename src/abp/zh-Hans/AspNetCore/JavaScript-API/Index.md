@@ -5,7 +5,7 @@ ABP为ASP.NET Core MVC / Razor页面应用程序提供了一些执行客户端�
 ## APIs
 
 * abp.ajax
-* [abp.auth](Auth.md)
+* [abp.auth](JavaScript-API/Auth.md)
 * abp.currentUser
 * abp.dom
 * abp.event

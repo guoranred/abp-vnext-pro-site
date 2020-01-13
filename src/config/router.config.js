@@ -333,21 +333,10 @@ const docsRouterMap = [
   {
     title: '入门',
     enTitle: 'Introduction',
-    url: 'getting-started'
-  },
-  {
-    title: '路由和菜单',
-    enTitle: 'Router and Nav',
-    url: 'router-and-nav'
-  },
-  {
-    title: '入门',
-    enTitle: 'Introduction',
     children: [
       {
         title: '开始使用',
         enTitle: 'Getting Started',
-        // url: 'getting-started'
         children: [
           {
             title: '路由和菜单',
