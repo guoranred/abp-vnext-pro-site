@@ -18,8 +18,8 @@
         </a-col>
         <a-col :xs="24" :sm="24" :md="6">
           <footer-center title="帮助">
-            <div><a target="_blank " href="https://github.com/sendya/ant-design-pro-vue">GitHub</a></div>
-            <div><a target="_blank" rel="noopener noreferrer" href="https://github.com/sendya/ant-design-pro-vue/issues/90"><span>贡献建议</span></a></div>
+            <div><a target="_blank " href="https://github.com/guoranred/abp-vnext-pro-site">GitHub</a></div>
+            <div><a target="_blank" rel="noopener noreferrer" href="https://github.com/guoranred/abp-vnext-pro-site/issues"><span>贡献建议</span></a></div>
           </footer-center>
         </a-col>
         <a-col :xs="24" :sm="24" :md="6">
@@ -36,7 +36,7 @@
     </div>
     <div class="footer-bar">
       <p>Made with <span class="heart">❤</span> by <a target="_blank" rel="noopener noreferrer" href="https://github.com/guoranred">开心果然</a></p>
-      <!-- <p>Inspired <a target="_blank" rel="noopener noreferrer" href="https://yuque.com/afx/blog"><span>AFX</span></a> · <a target="_blank" rel="noopener noreferrer" href="https://vue.ant.design/docs/vue/introduce-cn/"><span>Ant Design of Vue</span></a></p> -->
+      <p>Inspired <a target="_blank" rel="noopener noreferrer" href="https://pro.loacg.com/"><span>ANTD PRO VUE</span></a> · <a target="_blank" rel="noopener noreferrer" href="https://antdv.com/docs/vue/introduce-cn/"><span>Ant Design of Vue</span></a></p>
     </div>
   </div>
 </template>

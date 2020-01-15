@@ -13,9 +13,9 @@
             >
               <template v-for="route in abpRouterMap">
                 <a-menu-item v-if="!route.items" :key="route.text">
-                  <router-link :to="{ name: 'abp', params: { page: route.path } }"><span>{{ currentLang !== 'en-US' ? route.text : route.text }}</span></router-link>
+                  <router-link :to="{ name: 'abp', params: { page: route.path } }"><span>{{ currentLang !== 'en-US' ? route.text : route.enText }}</span></router-link>
                 </a-menu-item>
-                <sub-menu v-else :menu-info="route" :key="route.text" />
+                <sub-menu v-else :menu-info="route" :current-lang="currentLang" :key="route.text" />
               </template>
             </a-menu>
           </section>
@@ -46,7 +46,7 @@ renderer.image = (href, title, text) => {
   const url = `/${href}`
   return '<img src="' +
     url + '"' +
-    ' class="img-fluid" alt="' +
+    ' alt="' +
     text +
     '">'
 }
@@ -91,9 +91,8 @@ export default {
     }
   },
   created () {
-    const { $route: { params, hash } } = this
+    const { $route: { params } } = this
     const page = params.page || 'Index'
-    this.$router.push({ name: 'abp', params: { page: page }, hash: hash })
     if (page && page !== '') {
       this.updateMenu()
     }

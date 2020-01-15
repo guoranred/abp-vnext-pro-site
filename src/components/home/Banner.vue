@@ -9,12 +9,12 @@
         <span>{{ $t('banner.desc') }}</span>
       </p>
       <div class="button-wrapper">
-        <a href="https://preview.pro.loacg.com">
+        <!-- <a href="https://preview.pro.loacg.com">
           <a-button type="primary">{{ $t('banner.preview') }}</a-button>
         </a>
         <a @click="$router.push({ name: 'docs' })">
           <a-button style="margin: 0 16px;">{{ $t('banner.getter') }}</a-button>
-        </a>
+        </a> -->
       </div>
     </div>
     <div class="banner-image-wrapper" style="opacity: 1;">
